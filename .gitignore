@@ -48,3 +48,31 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 .DS_Store
+
+# Bioinformatics data - never commit
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.sam
+*.vcf
+*.bcf
+*.bed
+*.gtf
+*.gff
+*.fa
+*.fasta
+
+# Salmon/quantification outputs
+quant.sf
+salmon_output/
+
+# Large data directories
+raw_data/
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
